@@ -1,0 +1,152 @@
+#pageContainer {
+  display: grid;
+  grid-template-rows: 2fr, 3fr;
+  grid-template-columns: 200px, 1000px, 600px;
+  border-style: solid;
+}
+
+
+.buttons {
+  width: 100px;
+  height: 50px;
+  border-width: 0px;
+  border-radius: 4px;
+  font-family: 'Lora', serif;
+  color: #345AB3;
+  font-size: 22px;
+  background-color: #ffffff;
+}
+
+#buttonContainer{
+  margin-top: 20px;
+  padding-right: 50px;
+  margin-right:50px;
+  width: 350px;
+  height: 50px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: end;
+  border-style: solid;
+}
+
+#image {
+  padding-left: 10px;
+  width: 1000px;
+  height: 610px;
+  grid-column-start: 1;
+  grid-row-start: 3;
+  justify-self: center
+}
+
+.hide {
+  display: none;
+}
+
+/* #blurbid {
+  padding-right: 300px;
+  font-family: 'Lora', serif;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: center;
+  align-self: flex-end;
+  padding-left: 300px;
+} */
+
+a {
+  text-decoration: none;
+  color:black
+}
+
+#title {
+color: #345AB3;
+width: 200px;
+margin-left: 210px;
+  font-family: 'Lora', serif;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: start;
+  border-style: solid;
+}
+
+#menutitle {
+color: #345AB3; 
+  padding-right: 510px;
+  font-family: 'Lora', serif;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  justify-self: center;
+  border-style: solid;
+}
+
+#menuid {
+  font-family: 'Lora', serif;
+  grid-column-start: 1;
+  grid-row-start: 3;
+  justify-self: center
+}
+
+#menu {
+  margin-bottom: 200px;
+  grid-column-start: 1;
+  width: 600px;
+  justify-self: center;
+  font-family: 'Lora', serif;
+  border-style: solid;
+}
+
+#entree {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 400px;
+  height: 75px;
+  font-size: 22px;
+  text-align: left;
+  font-family: 'Lora', serif;
+  border-style: solid;
+  text-align: top;
+}
+
+#line {
+ border-bottom: 1px solid black;
+}
+
+.whitespace {
+  width: 150px
+}
+
+.price {
+  text-align: right
+}
+
+ .row {
+   font-size: 18px;
+} 
+
+#main {
+  height: 75px;
+  width: 350px;
+  text-align: left;
+  font-size: 22px;
+}
+
+#dessert {
+  height: 75px;
+  text-align: left;
+  font-size: 22px;
+}
+
+#contactid {
+  margin: 20px;
+  font-family: 'Lora', serif;
+  grid-column-start: 1;
+  justify-self: center
+}
+
+#contacttitle {
+  color: #345AB3;
+  font-family: 'Lora', serif;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  justify-self: center;
+  padding-right: 470px;
+}
