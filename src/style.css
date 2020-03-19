@@ -1,8 +1,7 @@
 #pageContainer {
   display: grid;
-  grid-template-rows: 2fr, 3fr;
+  grid-template-rows: 2fr, 3fr, 2fr;
   grid-template-columns: 200px, 1000px, 600px;
-  border-style: solid;
 }
 
 
@@ -26,7 +25,6 @@
   grid-column-start: 1;
   grid-row-start: 1;
   justify-self: end;
-  border-style: solid;
 }
 
 #image {
@@ -65,7 +63,6 @@ margin-left: 210px;
   grid-column-start: 1;
   grid-row-start: 1;
   justify-self: start;
-  border-style: solid;
 }
 
 #menutitle {
@@ -75,7 +72,6 @@ color: #345AB3;
   grid-column-start: 1;
   grid-row-start: 2;
   justify-self: center;
-  border-style: solid;
 }
 
 #menuid {
@@ -91,7 +87,6 @@ color: #345AB3;
   width: 600px;
   justify-self: center;
   font-family: 'Lora', serif;
-  border-style: solid;
 }
 
 #entree {
@@ -102,7 +97,6 @@ color: #345AB3;
   font-size: 22px;
   text-align: left;
   font-family: 'Lora', serif;
-  border-style: solid;
   text-align: top;
 }
 
@@ -143,10 +137,32 @@ color: #345AB3;
 }
 
 #contacttitle {
+  margin-left: 210px;
   color: #345AB3;
   font-family: 'Lora', serif;
   grid-column-start: 1;
   grid-row-start: 2;
-  justify-self: center;
+  justify-self: start;
   padding-right: 470px;
+}
+
+#contact {
+ margin-top: 10px;
+ text-align: left;
+ }
+
+ #general {
+   height: 15px;
+   text-align: left;
+ }
+
+ .space {
+   height: 30px;
+ }
+
+#map {
+  margin-top: 50px;
+  margin-left: 500px;
+  grid-column-start: 1;
+  grid-row-start: 2;
 }

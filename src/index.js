@@ -6,30 +6,29 @@ import loadContactTab from './contact'
 
 loadPage()
 
-function deletePageContact() {
-  // document.getElementById('title').textContent = ' '
-  // document.getElementById('menuid').textContent = ' '
+function switchToContact() {
+  document.getElementById('image').classList.add('hide')
   document.getElementById('menu').classList.add('hide')
-  document.getElementById('menutitle').classList.toggle('hide')
+  document.getElementById('menutitle').classList.add('hide')
 }
-function deletePageMenu() {
-  // document.getElementById('title').textContent = ' '
-  // document.getElementById('contactid').textContent = ' '
+function switchToMenu() {
+  document.getElementById('map').classList.add('hide')
   document.getElementById('contacttitle').classList.add('hide')
   document.getElementById('image').classList.add('hide')
 }
-function deletePageHome() {
+function switchToHome() {
   document.getElementById('contacttitle').classList.add('hide')
   document.getElementById('menutitle').classList.add('hide')
   document.getElementById('menu').classList.add('hide')
+  document.getElementById('map').classList.add('hide')
   document.getElementById('image').classList.remove('hide')
 }
 
 document.getElementById('contactTab').addEventListener('click', loadContactTab)
-document.getElementById('contactTab').addEventListener('click', deletePageContact)
+document.getElementById('contactTab').addEventListener('click', switchToContact)
 
 document.getElementById('menuTab').addEventListener('click', loadMenu)
-document.getElementById('menuTab').addEventListener('click', deletePageMenu)
+document.getElementById('menuTab').addEventListener('click', switchToMenu)
 
 document.getElementById('homeTab').addEventListener('click', loadPage)
-document.getElementById('homeTab').addEventListener('click', deletePageHome)
+document.getElementById('homeTab').addEventListener('click', switchToHome)

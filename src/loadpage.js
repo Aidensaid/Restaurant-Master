@@ -1,6 +1,5 @@
 function loadPage() {
-  title.textContent = 'UMUT 2000'
+  const image = document.getElementById('image')
+  image.classList.remove('hide')
 }
-
-
 export default loadPage
